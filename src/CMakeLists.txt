@@ -56,7 +56,7 @@ Pkgconfig_Link_LIBS(${PROJECT_NAME}  eigen3 ${VCPKG_PKGCONFIG_PATH})
 #      libname: sub subdirectory中的库名称
 # # # # #
 AddSubCMakeLists()
-# Target_Link_myLIBS(${PROJECT_NAME} libs)
+Target_Link_myLIBS(${PROJECT_NAME} control)
 
 
 # # # # #

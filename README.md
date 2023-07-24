@@ -1,16 +1,25 @@
 # cmake template
 
 ## 介绍
-快速构建C++/Cmake项目
-
-## 使用方法
-~~~
-  git clone git@github.com:Getonechao/CMakeTemplate.git
-  python3 init.py
-~~~
+ALG算法库
 
 ## 预期功能
-1. 一键清除代码注释
-2. c/c++的一键生成定义
-3. gdb调试
-4. 性能分析
+~~~
+1.PID控制算法
+2.filter算法
+~~~
+
+## PID控制算法
+1. 普通PID控制器
+2. 可变积分速率的PID控制器
+3. 带有低通滤波器的PID控制器
+
+
+## 滤波器算法
+1. 均值滤波
+2. 中位值滤波
+3. 限幅滤波
+4. 消抖滤波法
+5. 低通滤波法
+6. 高通滤波法
+7. 自适应滤波
